@@ -1,0 +1,4 @@
+cd Documents/cursogit
+ls
+git init - inicializa repositorio
+git status - comando que mostra o estado do nosso repositório, ou seja, quais arquivos foram alterados

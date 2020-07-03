@@ -16,3 +16,17 @@ Queremos salvar as alterações, e o que poderemos entender como sendo um check 
 
     A boa prática pede para colocarmos mensagens descritivas, evitando que fiquem muito grandes.
 --------------------------
+git config --local user.name "Seu nome aqui"
+git config --local user.email "seu@email.aqui"
+git config -l  ------ Mostra se o usuario e o email foram inseridos.
+
+Antes de qualquer interação com o git, você precisa informar quem é você para que ele armazene corretamente os dados do autor de cada uma das alterações no código. 
+
+----------------------
+git log = Ver histórico de alterações.
+git log --help = Ajuda.
+git config --local user.name "Nome da pessoa" = definir o nome da pessoa que executa commits no repositório local atual.
+
+git log --oneline, git log -p
+--------------------------
+.gitignore = Todas as linhas que estiverem nele serão lidos e ignorados pelo Git.
